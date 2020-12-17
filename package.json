@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "deployment": "^0.2.3",
+    "deployment": "^0.0.9",
     "express": "^4.17.1",
     "gh-pages": "^3.1.0",
     "master": "^0.0.14",
